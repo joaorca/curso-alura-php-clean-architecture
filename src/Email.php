@@ -10,6 +10,11 @@ class Email
 
     public function __construct(string $endereco)
     {
+        $this->setEndereco($endereco);
+    }
+
+    private function setEndereco(string $endereco): void
+    {
         if (filter_var($endereco, FILTER_VALIDATE_EMAIL) === false) {
             throw new \InvalidArgumentException(
                 "Endereço de e-mail inválido"
