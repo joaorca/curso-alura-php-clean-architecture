@@ -6,10 +6,13 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Alura\\Arquitetura\\Tests": "tests/"
+      "Alura\\Arquitetura\\Tests\\": "tests/"
     }
   },
   "require-dev": {
     "phpunit/phpunit": "^9.3"
+  },
+  "require": {
+    "ext-pdo": "*"
   }
 }
