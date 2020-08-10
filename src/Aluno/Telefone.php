@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Alura\Arquitetura;
+namespace Alura\Arquitetura\Aluno;
 
 class Telefone
 {
