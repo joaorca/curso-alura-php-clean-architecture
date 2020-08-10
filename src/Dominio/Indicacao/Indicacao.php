@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Alura\Arquitetura\Indicacao;
+namespace Alura\Arquitetura\Dominio\Indicacao;
 
-use Alura\Arquitetura\Aluno\Aluno;
+use Alura\Arquitetura\Dominio\Aluno\Aluno;
 
 class Indicacao
 {

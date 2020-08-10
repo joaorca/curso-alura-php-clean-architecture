@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Alura\Arquitetura\Aluno;
+namespace Alura\Arquitetura\Dominio\Aluno;
 
 use Alura\Arquitetura\Cpf;
-use Alura\Arquitetura\Email;
+use Alura\Arquitetura\Domino\Email;
 
 class Aluno
 {

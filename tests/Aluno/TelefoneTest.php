@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Alura\Arquitetura\Tests;
+namespace Alura\Arquitetura\Aluno\Tests;
 
-use Alura\Arquitetura\Telefone;
+use Alura\Arquitetura\Dominio\Aluno\Telefone;
 use PHPUnit\Framework\TestCase;
 
 class TelefoneTest extends TestCase
