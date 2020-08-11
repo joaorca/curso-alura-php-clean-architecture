@@ -10,7 +10,7 @@ use Alura\Arquitetura\Dominio\Aluno\AlunoRepository;
 use Alura\Arquitetura\Dominio\Aluno\Telefone;
 use Alura\Arquitetura\Dominio\Cpf;
 
-class AlunoPdoRepository implements AlunoRepository
+class AlunoRepositoryPdo implements AlunoRepository
 {
     private \PDO $conexao;
 

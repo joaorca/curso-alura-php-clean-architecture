@@ -6,7 +6,7 @@ namespace Alura\Arquitetura\Infraestrutura\Aluno;
 
 use Alura\Arquitetura\Dominio\Aluno\CifradorDeSenha;
 
-class CifradorDeSenhasPhp implements CifradorDeSenha
+class CifradorDeSenhaPhp implements CifradorDeSenha
 {
 
     public function cifrar(string $senha): string

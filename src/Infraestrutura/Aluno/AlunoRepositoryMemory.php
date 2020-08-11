@@ -9,7 +9,7 @@ use Alura\Arquitetura\Dominio\Aluno\AlunoNaoEncontradoException;
 use Alura\Arquitetura\Dominio\Aluno\AlunoRepository;
 use Alura\Arquitetura\Dominio\Cpf;
 
-class AlunoMemoryRepository implements AlunoRepository
+class AlunoRepositoryMemory implements AlunoRepository
 {
     private array $alunos = [];
 

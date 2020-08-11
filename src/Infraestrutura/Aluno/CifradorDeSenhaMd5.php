@@ -6,7 +6,7 @@ namespace Alura\Arquitetura\Infraestrutura\Aluno;
 
 use Alura\Arquitetura\Dominio\Aluno\CifradorDeSenha;
 
-class CifradorDeSenhasMd5 implements CifradorDeSenha
+class CifradorDeSenhaMd5 implements CifradorDeSenha
 {
 
     public function cifrar(string $senha): string
