@@ -1,0 +1,12 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Alura\Arquitetura\Dominio\Aluno;
+
+interface CifradorDeSenha
+{
+    public function cifrar(string $senha): string;
+
+    public function verificar(string $senhaEmTexto, string $senhaCifrada): bool;
+}
