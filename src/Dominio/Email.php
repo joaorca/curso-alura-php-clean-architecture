@@ -17,7 +17,7 @@ class Email
     {
         if (filter_var($endereco, FILTER_VALIDATE_EMAIL) === false) {
             throw new \InvalidArgumentException(
-                "Endereço de e-mail inválido"
+                "Endereço de e-mail inválido ($endereco)"
             );
         }
         $this->endereco = $endereco;
