@@ -22,7 +22,7 @@ class AlunoRepositoryMemory implements AlunoRepository
     {
         $alunosFiltrados = array_filter(
             $this->alunos,
-            fn($aluno) => $aluno->cpf == $cpf
+            fn($aluno) => $aluno->cpf() == $cpf
         );
 
         if (count($alunosFiltrados) === 0) {

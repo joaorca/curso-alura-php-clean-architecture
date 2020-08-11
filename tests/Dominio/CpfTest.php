@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Alura\Arquitetura\Tests;
+namespace Alura\Arquitetura\Tests\Dominio;
 
 use Alura\Arquitetura\Dominio\Cpf;
 use PHPUnit\Framework\TestCase;
